@@ -162,7 +162,37 @@ class OwnHomeDataMessage(PiranhaMessage):
         self.writeVInt(32)
         self.writeVInt(33)
 
-        self.writeVInt(0) # event count
+        self.writeVInt(1) # event count
+
+        self.writeVInt(1)
+        self.writeVInt(32)
+        self.writeVInt(0)
+        self.writeVInt(72292)
+        self.writeVInt(0)
+        self.writeDataReference(15, 122) # map id
+        self.writeVInt(-1)
+        self.writeVInt(2)
+        self.writeString("")
+        self.writeVInt(0)
+        self.writeVInt(0)
+        self.writeVInt(0)
+        self.writeVInt(0)
+        self.writeVInt(0)
+        self.writeVInt(0)
+        self.writeBoolean(False) # MapMaker map structure array
+        self.writeVInt(0)
+        self.writeBoolean(False) # Power League array entry
+        self.writeVInt(0)
+        self.writeVInt(0)
+        self.writeBoolean(False)
+        self.writeBoolean(False)
+        self.writeBoolean(False)
+        self.writeVInt(-1)
+        self.writeBoolean(False)
+        self.writeBoolean(False)
+        self.writeVInt(-1)
+
+
         self.writeVInt(0) # upcoming event count
        
         ByteStreamHelper.encodeIntList(self, [20, 35, 75, 140, 290, 480, 800, 1250, 1875, 2800]) # Brawler Upgrade Cost
