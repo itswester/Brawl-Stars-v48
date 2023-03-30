@@ -6,6 +6,8 @@ iOS : https://mega.nz/file/Mx8TjLZD#vq1wXa9peJ0EKTXoS9pr-J1Wgij764YKBk_tCZ7FyWc 
 
 Second link : https://www.mediafire.com/file/4cwiggqrkxq694b/BSDS_V48.ipa/file
 
+Android : https://www.mediafire.com/file/2fzu156tq0fo2yp/BSDS-V48.apk/file
+
 
 ## Requirements: ##
 1. a brain...
@@ -38,6 +40,8 @@ Second link : https://www.mediafire.com/file/4cwiggqrkxq694b/BSDS_V48.ipa/file
 ![IMG_0550](https://user-images.githubusercontent.com/72312877/227719466-2b6f2f48-6dfe-4059-aec7-507583287412.PNG)
 
 ## credits ##
+[Shadow#9418](https://github.com/ShadowwDev) Android Client
+
 [S.B#0056](https://github.com/HaccerCat) for his help with crypto and client
 
 [Vitalik](https://github.com/VitalikObject) for his crypto from [OldBrawl](https://github.com/VitalikObject/OldBrawl)
